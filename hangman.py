@@ -8,7 +8,7 @@ def hangman(word):
              "|      |      ",
              "|      O      ",
              "|     /|\     ",
-             "|     / \      ",
+             "|     / \     ",
              "|_____________"]
     rletters = list(word)
     board = ["__"] * len(word)
